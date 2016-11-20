@@ -1,7 +1,7 @@
 const React = require('react')
+const form = require('serializable-form')
 const { render, mount } = require('enzyme')
 const { Form, FormInput } = require('../src')
-const form = require('serializable-form')
 
 describe('Form', function () {
   const bookForm = form({
