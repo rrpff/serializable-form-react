@@ -16,6 +16,8 @@ First define a form creator.
 
 ```js
 // forms/bookCreateForm.js
+const form = require('serializable-form')
+
 const isPresent = value => value && value.length > 0
 
 const bookCreateForm = form({
