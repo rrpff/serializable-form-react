@@ -37,10 +37,10 @@
     "jsdom": "^9.8.3",
     "mocha": "^3.1.2",
     "react": "^15.4.0",
-    "serializable-form": "^1.0.2"
+    "serializable-form": "^1.0.3"
   },
   "peerDependencies": {
     "react": "^15.4.0",
-    "serializable-form": "^1.0.2"
+    "serializable-form": "^1.0.3"
   }
 }
