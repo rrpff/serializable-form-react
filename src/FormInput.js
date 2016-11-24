@@ -4,12 +4,8 @@ class FormInput extends React.Component {
   constructor (...args) {
     super(...args)
 
-    const field = this.context.form.getField(this.props.field)
-    this.state = {
-      value: (field && field.value) || '',
-      valid: (field && field.valid),
-      errors: (field && field.errors) || []
-    }
+    const { value, valid, errors } = this.context.form.getField(this.props.field)
+    this.state = { value, valid, errors }
   }
 
   fullClassName () {
@@ -23,7 +19,7 @@ class FormInput extends React.Component {
 
   async handleChange (e) {
     const value = e.target.value
-    const { valid, errors } = await this.context.form.validate(this.props.field, value)
+    const { valid, errors } = await this.context.form.setField(this.props.field, value)
     this.setState({ value, valid, errors })
   }
 

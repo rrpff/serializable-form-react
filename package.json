@@ -35,16 +35,17 @@
     "chai": "^3.5.0",
     "enzyme": "^2.6.0",
     "eslint": "^3.10.2",
-    "eslint-config-airbnb": "^12.0.0",
-    "eslint-plugin-import": "^1.16.0",
-    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.7.1",
     "jsdom": "^9.8.3",
     "mocha": "^3.1.2",
     "react": "^15.4.0",
     "react-addons-test-utils": "^15.4.0",
     "react-dom": "^15.4.0",
-    "serializable-form": "^1.0.3"
+    "serializable-form": "^1.0.3",
+    "sinon": "^1.17.6"
   },
   "peerDependencies": {
     "react": "^15.4.0",
