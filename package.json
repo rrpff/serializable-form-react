@@ -1,6 +1,6 @@
 {
   "name": "serializable-form-react",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "React components for serializable-form",
   "main": "dist/index.js",
   "directories": {
